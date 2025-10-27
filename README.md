@@ -1,12 +1,12 @@
 # Lab 5: Static Code Analysis
 
-### 🧑‍💻 Author
+###  Author
 **Ananya A C**  
 PES University  
 
 ---
 
-### 🧠 Objective
+###  Objective
 To analyze and improve Python code quality, security, and style using three static analysis tools:
 - **Pylint** – for code quality and best practices  
 - **Bandit** – for security analysis  
@@ -14,7 +14,7 @@ To analyze and improve Python code quality, security, and style using three stat
 
 ---
 
-### 🧩 Tools Used
+###  Tools Used
 - Python 3.12.1  
 - Pylint  
 - Bandit  
@@ -23,7 +23,7 @@ To analyze and improve Python code quality, security, and style using three stat
 
 ---
 
-### ⚙️ Commands Executed
+###  Commands Executed
 ```bash
 pylint inventory_system.py > pylint_report.txt
 bandit -r inventory_system.py > bandit_report.txt
